@@ -10,9 +10,13 @@
 		47E69C34274672CC00DEEC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E69C33274672CC00DEEC6A /* AppDelegate.swift */; };
 		47E69C36274672CC00DEEC6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E69C35274672CC00DEEC6A /* SceneDelegate.swift */; };
 		47E69C38274672CC00DEEC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E69C37274672CC00DEEC6A /* ViewController.swift */; };
-		47E69C3B274672CC00DEEC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C39274672CC00DEEC6A /* Main.storyboard */; };
 		47E69C3D274672CD00DEEC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C3C274672CD00DEEC6A /* Assets.xcassets */; };
 		47E69C40274672CD00DEEC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C3E274672CD00DEEC6A /* LaunchScreen.storyboard */; };
+		47E69C482746769B00DEEC6A /* NumberGuessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E69C472746769B00DEEC6A /* NumberGuessModel.swift */; };
+		47E69C4B2746776A00DEEC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C492746776A00DEEC6A /* Main.storyboard */; };
+		47E69C4D2746783E00DEEC6A /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C4C2746783E00DEEC6A /* happy.png */; };
+		47E69C4F2746784600DEEC6A /* neutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C4E2746784600DEEC6A /* neutral.png */; };
+		47E69C512746784D00DEEC6A /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47E69C502746784D00DEEC6A /* sad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		47E69C33274672CC00DEEC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E69C35274672CC00DEEC6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		47E69C37274672CC00DEEC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		47E69C3A274672CC00DEEC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47E69C3C274672CD00DEEC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E69C3F274672CD00DEEC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47E69C41274672CD00DEEC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E69C472746769B00DEEC6A /* NumberGuessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessModel.swift; sourceTree = "<group>"; };
+		47E69C4A2746776A00DEEC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../Desktop/NumberGuesser_2 3/NumberGuesser_2/NumberGuesser_2/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		47E69C4C2746783E00DEEC6A /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = happy.png; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2/happy.png"; sourceTree = "<group>"; };
+		47E69C4E2746784600DEEC6A /* neutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = neutral.png; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2/neutral.png"; sourceTree = "<group>"; };
+		47E69C502746784D00DEEC6A /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2/sad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				47E69C33274672CC00DEEC6A /* AppDelegate.swift */,
+				47E69C472746769B00DEEC6A /* NumberGuessModel.swift */,
 				47E69C35274672CC00DEEC6A /* SceneDelegate.swift */,
 				47E69C37274672CC00DEEC6A /* ViewController.swift */,
-				47E69C39274672CC00DEEC6A /* Main.storyboard */,
+				47E69C492746776A00DEEC6A /* Main.storyboard */,
 				47E69C3C274672CD00DEEC6A /* Assets.xcassets */,
 				47E69C3E274672CD00DEEC6A /* LaunchScreen.storyboard */,
 				47E69C41274672CD00DEEC6A /* Info.plist */,
+				47E69C4C2746783E00DEEC6A /* happy.png */,
+				47E69C4E2746784600DEEC6A /* neutral.png */,
+				47E69C502746784D00DEEC6A /* sad.png */,
 			);
 			path = NumberGuess;
 			sourceTree = "<group>";
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E69C512746784D00DEEC6A /* sad.png in Resources */,
 				47E69C40274672CD00DEEC6A /* LaunchScreen.storyboard in Resources */,
 				47E69C3D274672CD00DEEC6A /* Assets.xcassets in Resources */,
-				47E69C3B274672CC00DEEC6A /* Main.storyboard in Resources */,
+				47E69C4F2746784600DEEC6A /* neutral.png in Resources */,
+				47E69C4D2746783E00DEEC6A /* happy.png in Resources */,
+				47E69C4B2746776A00DEEC6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			files = (
 				47E69C38274672CC00DEEC6A /* ViewController.swift in Sources */,
 				47E69C34274672CC00DEEC6A /* AppDelegate.swift in Sources */,
+				47E69C482746769B00DEEC6A /* NumberGuessModel.swift in Sources */,
 				47E69C36274672CC00DEEC6A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,20 +163,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47E69C39274672CC00DEEC6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				47E69C3A274672CC00DEEC6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		47E69C3E274672CD00DEEC6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				47E69C3F274672CD00DEEC6A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47E69C492746776A00DEEC6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E69C4A2746776A00DEEC6A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,6 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NumberGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberGuess_Extreme;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +335,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NumberGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberGuess_Extreme;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
