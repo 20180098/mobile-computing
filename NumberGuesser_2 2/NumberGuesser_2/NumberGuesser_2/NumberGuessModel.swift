@@ -24,11 +24,11 @@ class NumberGuessModel {
         var picture: String = ""
         
         if (guessCount < 6) {
-            picture = "normal"
+            picture = "neutral.png"
         } else if (guessCount < 10) {
-            picture = "1f974"
+            picture = "happy.png"
         } else {
-            picture = "1200px-Noto_Emoji_Pie_1f4a9"
+            picture = "sad.png"
         }
         return picture
     }
